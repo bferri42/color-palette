@@ -1,0 +1,32 @@
+
+.color-form-root {
+display: flex;
+flex-direction: column;
+width: fit-content;
+margin: auto;
+gap: .5em;
+
+}
+
+.color-form-root input,
+.color-form-root button {
+    width: 14em;
+    height: 3em;
+    font-size: 14pt;
+    font-weight: 600;
+    border-radius: 2em;
+    overflow: hidden;
+    background-color: rgb(75, 173, 238);
+    color: rgb(11, 245, 11);
+    padding: .15em;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+input::-webkit-color-swatch {
+    border: none;
+}
+
+
+
+

@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  text-align: end;
+  font-size: 9pt;
+  margin-right: 3px;
+}
+
+.hero-root {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top, 
+    #0fd2ec, 
+    #00e0e2, 
+    #00eabe, 
+    #00f182, 
+    #1ce026);
+}
+
+.hero-root h1 {
+  font-size: 30pt;
+  margin-top: 0;
+  padding-top: 1em;
+  color: rgb(26, 100, 237);
+}
